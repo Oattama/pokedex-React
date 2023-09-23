@@ -1,0 +1,200 @@
+.contentContainer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.head {
+  text-align: center;
+}
+
+.head p {
+  padding: 10px;
+  color: #fff;
+  background-color: #c00707;
+  border: 1px solid;
+}
+
+.pokeImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.pokeImg img {
+  margin: 50px 10px;
+  border: 5px solid;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.formBtn {
+  display: none;
+}
+
+.Con {
+  display: flex;
+}
+
+.leftCon {
+  width: 100%;
+  padding: 0 auto;
+  justify-content: center;
+}
+
+.typeCon {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  color: #fff;
+  background-color: #c00707;
+}
+
+.typeCon p {
+  padding: 0 10px;
+}
+
+.abiCon {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  color: #fff;
+  background-color: #c00707;
+  border-top: 1px solid #fff;
+}
+
+.abi {
+  display: flex;
+  padding: 0 10px;
+}
+
+.abi p {
+  padding: 0 10px;
+}
+
+.rightCon {
+  width: 100%;
+  padding: 0 auto;
+  margin: 0 0 0 10px;
+}
+
+.statsCon {
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #c00707;
+}
+
+.statsCon p {
+  color: #fff;
+}
+
+.bodyCon {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #c00707;
+  border: 1px solid #fff;
+}
+
+.bodyCon p {
+  padding: 0 10px;
+}
+
+.movesCon {
+  justify-content: center;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #c00707;
+  border: 1px solid #fff;
+}
+
+.moves {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.moves h3 {
+  padding: 0 100px;
+  margin: 10px 0;
+}
+
+.levelMoves {
+  max-width: 350px;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.move {
+  text-align: left;
+}
+
+@media only screen and (max-width: 750px) {
+  .pokeImg {
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .pokeImg img {
+    margin: 20px 0;
+  }
+
+  .formBtn {
+    display: flex;
+    margin: 0 0 10px 0;
+  }
+
+  .formBtn img {
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .normal.hide {
+    display: none;
+  }
+
+  .shiny {
+    display: block;
+  }
+
+  .shiny.hide {
+    display: none;
+  }
+
+  .Con {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightCon {
+    margin: 10px 0;
+  }
+
+  .abi {
+    display: block;
+  }
+
+  .abi p {
+    padding: 0 0 10px 0;
+  }
+
+  .moves {
+    display: block;
+  }
+
+  .moves h3 {
+    padding: 0;
+    border-bottom: solid 1px #fff;
+  }
+}

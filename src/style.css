@@ -1,0 +1,34 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: block;
+  text-align: center;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 60%;
+    margin: 0 30% 0;
+  }
+
+  .sticky {
+    top: 0.5;
+  }
+}

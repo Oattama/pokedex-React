@@ -1,0 +1,60 @@
+.PopupCon {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.InnerPopup {
+  position: relative;
+  max-width: 1200px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.fa-times {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.topic p {
+  padding: 20px 0;
+}
+
+.input {
+  padding: 60px 200px;
+}
+
+.formInput {
+  margin: 20px 0;
+}
+
+.formInput i {
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  .InnerPopup {
+    max-width: 400px;
+  }
+  .input {
+    font-size: 1.5em;
+    padding: 70px 60px;
+  }
+}

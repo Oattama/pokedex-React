@@ -1,0 +1,12 @@
+.grid-con {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.fa-spinner {
+  margin: 100px 0;
+  padding: 0 auto;
+}
