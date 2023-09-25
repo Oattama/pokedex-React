@@ -22,6 +22,7 @@ const Container = styled.div`
         color: #fff;
         font-size: 1.1em;
         cursor: pointer;
+        pointer-events: none !important;
 
         &:hover {
           opacity: 0.9;
@@ -31,12 +32,10 @@ const Container = styled.div`
     .btnSignIn {
       background-color: #17ba00;
       border-radius: 5px;
-      pointer-event: none !important;
     }
     .btnSignUp {
       background-color: #037bd4;
       border-radius: 5px;
-      pointer-event: none !important;
     }
   }
 
