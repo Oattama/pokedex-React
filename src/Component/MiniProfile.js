@@ -31,10 +31,12 @@ const Container = styled.div`
     .btnSignIn {
       background-color: #17ba00;
       border-radius: 5px;
+      pointer-event: none !important;
     }
     .btnSignUp {
       background-color: #037bd4;
       border-radius: 5px;
+      pointer-event: none !important;
     }
   }
 
